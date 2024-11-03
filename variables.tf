@@ -14,3 +14,15 @@ variable "vpc_link" {
 variable "environment" {
   type = string  
 }
+
+variable "dns_name" {
+  type = string
+}
+
+variable "route53_zone_id" {
+  type = string  
+}
+
+variable "base_mapping" {
+  type = string  
+}
